@@ -8,7 +8,7 @@ In this chapter of Full Cycle Course 2.0 was implemented an API with GraphQL, th
 The application is able to create a course, chapters, categories and also to consult your information. Below there are some querys and mutations to test it 
 
 * findCategories
-
+```
 query findCategories{
   categories {
     id
@@ -19,10 +19,10 @@ query findCategories{
     }
   }
 }
-
+```
 
 * createCategory 
-
+```
 mutation createCategory{
     createCategory(input: {name: "PHP",description: "PHP is awesome"}){
         id
@@ -30,10 +30,10 @@ mutation createCategory{
         description
     }
 }
-
+```
 
 * createCourse
-
+```
 mutation createCourse{
     createCourse(
         input: {
@@ -51,10 +51,10 @@ mutation createCourse{
        }
     }
 }
-
+```
 
 * findCourses
-
+```
 query findCourses{
   courses{
     id
@@ -71,10 +71,10 @@ query findCourses{
     }
   }
 }
-
+```
 
 * createChapter
-
+```
 mutation createChapter{
     createChapter(
         input: {
@@ -89,3 +89,4 @@ mutation createChapter{
        }
     }
 }
+```
