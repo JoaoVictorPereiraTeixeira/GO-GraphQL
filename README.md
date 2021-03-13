@@ -39,7 +39,7 @@ mutation createCourse{
         input: {
             name: "Evolving with PHP",
             description: "Mega PHP is awesome",
-            categoryId: "T5577006791947779410"
+            categoryId: "{category-id}"
         }
     ){
        id
@@ -79,7 +79,7 @@ mutation createChapter{
     createChapter(
         input: {
             name: "Evolving with PHP",
-            courseId: "T8674665223082153551"
+            courseId: "{course-id}"
         }
     ){
        id
