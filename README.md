@@ -5,7 +5,7 @@ In this chapter of Full Cycle Course 2.0 was implemented an API with GraphQL, th
 
 
 ### Playground instructions ###
-The application is able to create a course, chapters, categories and also to consult your information. Below there are some querys and mutations to test it 
+The application is able to create a course, chapters, categories and also to consult your information. Below there are some queries and mutations to test it 
 
 * findCategories
 ```
